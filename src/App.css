@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1350px;
+  padding: 3rem 5rem;
+  z-index: 999;
+  position: relative;
+}
+
+.Home .Filter-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Country {
+  grid-row-gap: 75px;
+  display: grid;
+  justify-content: space-between;
+  row-gap: 75px;
+}
+
+
+
+@media (min-width: 1200px) {
+  .Country {
+    grid-template-columns: repeat(4, 15.875rem);
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .Home {
+    padding: 3rem 10rem;
+  }
+  .Country {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 5rem;
+  }
+
+  .Home .Filter-wrapper {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (width: 1200px) {
+  .Home {
+    padding: 3rem 10rem;
+  }
+
+  .Country {
+    gap: 3rem;
+  }
+}
+
+@media only screen and (width: 992px) {
+  .Country {
+    gap: 4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .Country {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .Country {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Home {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .Home {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 608px) {
+  .Home {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .Country {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  .Home {
+    padding: 3rem 7.6rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Home {
+    padding: 3rem 6.2rem;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .Home {
+    padding: 3rem 5.1rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .Home {
+    padding: 3rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .Home {
+    padding: 3rem 3.3rem;
+  }
+
+  .Country {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Home {
+    padding: 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Home {
+    padding: 3rem 2.6rem;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .Home .Filter-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}

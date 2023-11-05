@@ -1,0 +1,92 @@
+.Dropdown-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #353535;
+  cursor: pointer;
+  border-radius: 0.375rem;
+}
+
+.Dropdown-container ul {
+  display: flex;
+  list-style: none;
+  padding: 0.5rem;
+  color: #eceff1;
+}
+
+.Dropdown-container ul li {
+  position: relative;
+  margin-right: 60px;
+  transition: all 0.4s ease-out;
+}
+
+.Dropdown-container ul li .Down-arrow {
+  position: relative;
+  left: 3.5rem;
+  cursor: pointer;
+  color: #eceff1;
+}
+
+.Dropdown-container ul li .Sub-items {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -15px;
+  top: 30px;
+  width: 200px;
+  opacity: 0;
+  transition: all 0.2s ease;
+  visibility: hidden;
+}
+
+.Dropdown-container ul li .Sub-items.Open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Dropdown-container .Sub-items li {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  font-size: 1.5em;
+  width: 200px;
+  padding: 12px;
+  background: linear-gradient(to left, #353535 50%, #1e1e1e 50%) right;
+  background-size: 200%;
+  transition: 0.4s ease-out;
+}
+
+.Dropdown-container .Sub-items li:hover {
+  background-position: left;
+  color: #2d3142;
+}
+
+.Dropdown-container .Sub-items li span {
+  position: relative;
+  top: -3px;
+  left: 12px;
+  color: #eff1ed;
+  font-size: 0.65em;
+}
+
+.Dropdown-container .Sub-items li a {
+  text-decoration: none;
+}
+
+.Dropdown-container .Sub-items li i {
+  color: #eff1ed;
+}
+
+.Dropdown-container .Sub-items li:nth-child(1) {
+  border-radius: 12px 12px 0 0;
+}
+
+.Dropdown-container .Sub-items li:nth-child(7) {
+  border-radius: 0 0 12px 12px;
+}
+
+@media only screen and (max-width: 576px) {
+  .Dropdown-container {
+    margin-bottom: 2rem;
+  }
+}
