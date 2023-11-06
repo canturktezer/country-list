@@ -10,7 +10,7 @@ export default function Dropdown({ onSelectRegion }) {
     setOpenDropdown(!openDropdown);
   };
 
-  // Add a click event listener to the document
+  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
