@@ -28,7 +28,7 @@ function CountryList() {
       });
   }, []);
 
-  // Handle changes in the search input
+  
   const handleSearchInputChange = (query) => {
     setSearchQuery(query);
 
@@ -60,8 +60,9 @@ function CountryList() {
     }
   };
 
-  // Show loading for a specific duration (in milliseconds)
-  const loadingDuration = 500; // 3 seconds
+ 
+  const loadingDuration = 500; 
+
   const [showLoading, setShowLoading] = useState(true);
 
   useEffect(() => {
