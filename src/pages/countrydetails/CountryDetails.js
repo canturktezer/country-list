@@ -25,7 +25,7 @@ function CountryDetails() {
       });
   }, [code]);
 
-  const loadingDuration = 1000; // 3 seconds
+  const loadingDuration = 1000; 
   const [showLoading, setShowLoading] = useState(true);
 
   useEffect(() => {
