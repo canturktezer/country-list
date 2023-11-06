@@ -29,7 +29,7 @@ A web application that allows users to browse and explore information about diff
 
 4. Start the development server: npm start
 
-The Country List App will now be running locally at http://localhost:3000.
+5. The Country List App will now be running locally at http://localhost:3000.
 
 ## Usage
 1. Search for a country by name using the search bar.
