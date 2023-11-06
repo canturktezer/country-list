@@ -25,7 +25,9 @@ A web application that allows users to browse and explore information about diff
 
 2. Navigate to the project folder: cd country-list-app
 
-3. Start the development server: npm start
+3. Install the required dependencies: npm install
+
+4. Start the development server: npm start
 
 The Country List App will now be running locally at http://localhost:3000.
 
