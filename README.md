@@ -1,4 +1,6 @@
-Country List App
+#Country List App
+
+##Description
 
 A web application that allows users to browse and explore information about different countries.
 
@@ -20,7 +22,7 @@ A web application that allows users to browse and explore information about diff
 ## Getting Started
 
 ### Installation
-
+To run this application locally, follow these steps:
 1. Clone the repository: git clone https://github.com/canturktezer/country-list.git
 
 2. Navigate to the project folder: cd country-list-app
@@ -32,6 +34,6 @@ A web application that allows users to browse and explore information about diff
 5. The Country List App will now be running locally at http://localhost:3000.
 
 ## Usage
-1. Search for a country by name using the search bar.
-2. Filter countries by region using the dropdown menu.
-3. Click on a country to view more details about it.
+- Search for a country by name using the search bar.
+- Filter countries by region using the dropdown menu.
+- Click on a country to view more details about it.
